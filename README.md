@@ -8,7 +8,7 @@ Modelo de Machine Learning que prevê a probabilidade de um candidato a deputado
 * [Introdução](#Introdução)
 * [Tecnologias](#Tecnologias)
 * [Escopo e funcionalidades](#Escopo-e-funcionalidades)
-    * [1° notebook](#notebook_1)
+    * [1° notebook](#1-notebook)
     * [2° notebook](#2°-notebook)
     * [3° notebook](#3°-notebook)
     * [4° notebook](#4°-notebook)
@@ -45,7 +45,7 @@ O projeto está dividido em 4 notebooks:
 &nbsp;&nbsp;&nbsp;**4.** avalia_previsoes
 
 
-### notebook_1
+### 1 notebook
 
 Constitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
