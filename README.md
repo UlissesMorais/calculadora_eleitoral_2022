@@ -67,7 +67,7 @@ A partir das previsões do melhor modelo, neste notebook é realizada a análise
 
 Segue abaixo um diagrama com o workflow que foi realizado durante o desenvolvimento do modelo. Nota-se que a etapa iterativa do processo era a avaliação do modelo nos dados de teste e também a análise de erro das previsões, o que levou a levantar novas features como dados de redes sociais, quociente eleitoral etc.
 
-![This is an image](/media/workflow_projeto_ft.PNG)
+![This is an image](/media/workflow_projeto_ft.png)
 
 
 ## Próximos passos
