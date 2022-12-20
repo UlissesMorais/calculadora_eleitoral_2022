@@ -8,12 +8,10 @@ Modelo de Machine Learning que prevê a probabilidade de um candidato a deputado
 * [Introdução](#Introdução)
 * [Tecnologias](#Tecnologias)
 * [Escopo e funcionalidades](#Escopo-e-funcionalidades)
-
     * [1° notebook](#1°-notebook)
     * [2° notebook](#2°-notebook)
     * [3° notebook](#3°-notebook)
     * [4° notebook](#4°-notebook)
-    
 * [Workflow do projeto](#Workflow-do-projeto)
 * [Próximos passos](#Próximos-passos)
 * [Conclusão](#Conclusão)
@@ -47,7 +45,7 @@ O projeto está dividido em 4 notebooks:
 &nbsp;&nbsp;&nbsp;**4.** avalia_previsoes
 
 
-### 1° notebook
+###1° notebook
 
 Constitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
@@ -64,7 +62,6 @@ Neste notebook são montados vários modelos de ML, realizando seus treinamentos
 ### 4° notebook
 
 A partir das previsões do melhor modelo, neste notebook é realizada a análise de onde on modelo está errando e possíveis causas de erro. Nesta parte entra o conhecimento prévio sobre o que está sendo modelado. Por exemplo: Os dados originais não possuíam o número de seguidores em redes sociais dos candidatos, então alguns candidatos com milhões de seguidores e que foram eleitos não estavam com uma probabilidade alta pelo modelo. Logo, adquiridos os dados de redes sociais e implementados no modelo, melhoraram substancialmente as previsões.
-
 
 ## Workflow do projeto
 
