@@ -8,10 +8,10 @@ Modelo de Machine Learning que prevê a probabilidade de um candidato a deputado
 * [Introdução](#Introdução)
 * [Tecnologias](#Tecnologias)
 * [Escopo e funcionalidades](#Escopo-e-funcionalidades)
-    * [1° notebook](#1-notebook)
-    * [2° notebook](#2°-notebook)
-    * [3° notebook](#3°-notebook)
-    * [4° notebook](#4°-notebook)
+    * [1st notebook](#1st-notebook)
+    * [2nd notebook](#2nd-notebook)
+    * [3rd notebook](#3rd-notebook)
+    * [4th notebook](#4th-notebook)
 * [Workflow do projeto](#Workflow-do-projeto)
 * [Próximos passos](#Próximos-passos)
 * [Conclusão](#Conclusão)
@@ -45,21 +45,21 @@ O projeto está dividido em 4 notebooks:
 &nbsp;&nbsp;&nbsp;**4.** avalia_previsoes
 
 
-### 1 notebook
+### 1st notebook
 
 Constitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
-### 2° notebook
+### 2nd notebook
 
 Como próprio nome sugere, obtêm o dataset que posteriormente será dividido em treinamento e teste. Neste notebook é realizado o download dos arquivos de dados, análise exploratória, tratamento e montagem do dataset final. A descrição detalhada encontra-se no próprio notebook.
 
 
-### 3° notebook
+### 3rd notebook
 
 Neste notebook são montados vários modelos de ML, realizando seus treinamentos, otimização dos hiper parâmetrosede e avaliação usando *cross validation*. Para fins de aplicação e capacidade de generalização, foi utilizado o parâmetro de maior *F1_score* como o determinante na escolha modelo. Descrições detalhadas no notebook.
 
 
-### 4° notebook
+### 4th notebook
 
 A partir das previsões do melhor modelo, neste notebook é realizada a análise de onde on modelo está errando e possíveis causas de erro. Nesta parte entra o conhecimento prévio sobre o que está sendo modelado. Por exemplo: Os dados originais não possuíam o número de seguidores em redes sociais dos candidatos, então alguns candidatos com milhões de seguidores e que foram eleitos não estavam com uma probabilidade alta pelo modelo. Logo, adquiridos os dados de redes sociais e implementados no modelo, melhoraram substancialmente as previsões.
 
