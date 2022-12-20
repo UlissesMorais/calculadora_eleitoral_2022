@@ -47,7 +47,7 @@ O projeto está dividido em 3 notebooks:
 
 ### 1° notebook
 
-Contitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
+Constitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
 
 ### 2° notebook
