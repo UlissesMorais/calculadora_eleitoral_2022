@@ -8,10 +8,12 @@ Modelo de Machine Learning que prevê a probabilidade de um candidato a deputado
 * [Introdução](#Introdução)
 * [Tecnologias](#Tecnologias)
 * [Escopo e funcionalidades](#Escopo-e-funcionalidades)
+
     * [1° notebook](#1°-notebook)
     * [2° notebook](#2°-notebook)
     * [3° notebook](#3°-notebook)
     * [4° notebook](#4°-notebook)
+    
 * [Workflow do projeto](#Workflow-do-projeto)
 * [Próximos passos](#Próximos-passos)
 * [Conclusão](#Conclusão)
@@ -34,9 +36,9 @@ Ao final, finalizada a escolha do melhor modelo e tunagem dos hiperparâmetros, 
 
 ## Escopo e funcionalidades
 
-O projeto está dividido em 3 notebooks:
+O projeto está dividido em 4 notebooks:
 
-&nbsp;&nbsp;&nbsp;**1.** insights_dados
+&nbsp;&nbsp;&nbsp;**1.**  insights_dados
 
 &nbsp;&nbsp;&nbsp;**2.**  monta_dataset
 
@@ -49,10 +51,9 @@ O projeto está dividido em 3 notebooks:
 
 Constitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
-
 ### 2° notebook
 
-Como próprio nome sugere, obtêm o dataset que posteriormente será dividido em treinamento e teste. Neste notebook é realizado o download dos arquivos de dados, tratamento e montagem do dataset final. A descrição detalhada encontra-se no próprio notebook.
+Como próprio nome sugere, obtêm o dataset que posteriormente será dividido em treinamento e teste. Neste notebook é realizado o download dos arquivos de dados, análise exploratória, tratamento e montagem do dataset final. A descrição detalhada encontra-se no próprio notebook.
 
 
 ### 3° notebook
