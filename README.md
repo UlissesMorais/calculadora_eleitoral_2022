@@ -11,6 +11,7 @@ Modelo de Machine Learning que prevê a probabilidade de um candidato a deputado
     * [1° notebook](#1°-notebook)
     * [2° notebook](#2°-notebook)
     * [3° notebook](#3°-notebook)
+    * [4° notebook](#4°-notebook)
 * [Workflow do projeto](#Workflow-do-projeto)
 * [Próximos passos](#Próximos-passos)
 * [Conclusão](#Conclusão)
@@ -35,24 +36,31 @@ Ao final, finalizada a escolha do melhor modelo e tunagem dos hiperparâmetros, 
 
 O projeto está dividido em 3 notebooks:
 
-&nbsp;&nbsp;&nbsp;**1.**  monta_dataset
+&nbsp;&nbsp;&nbsp;**1.** insights_dados
 
-&nbsp;&nbsp;&nbsp;**2.**  modelos_ml
+&nbsp;&nbsp;&nbsp;**2.**  monta_dataset
 
-&nbsp;&nbsp;&nbsp;**3.** avalia_previsoes
+&nbsp;&nbsp;&nbsp;**3.**  modelos_ml
+
+&nbsp;&nbsp;&nbsp;**4.** avalia_previsoes
 
 
 ### 1° notebook
 
-Como próprio nome sugere, obtêm o dataset que posteriormente será dividido em treinamento e teste. Neste notebook é realizado o download dos arquivos de dados, análise exploratória, tratamento e montagem do dataset final. A descrição detalhada encontra-se no próprio notebook.
+Contitui uma análise exploratória dos dados, cujo objetivo é entender como diversos fatores influenciam e estão rtelacionados com o objetivo principal (ver se o candidato será ou não eleito). Portanto, montam-se diversos gráficos para entender melhor estas relações. Os *insights* gerados nesta parte são cruciais para a montagem do dataset que será fornecido aos modelos de *Machine Learning*.
 
 
 ### 2° notebook
 
-Neste notebook são montados vários modelos de ML, realizando seus treinamentos, otimização dos hiper parâmetrosede e avaliação usando *cross validation*. Para fins de aplicação e capacidade de generalização, foi utilizado o parâmetro de maior *F1_score* como o determinante na escolha modelo. Descrições detalhadas no notebook.
+Como próprio nome sugere, obtêm o dataset que posteriormente será dividido em treinamento e teste. Neste notebook é realizado o download dos arquivos de dados, tratamento e montagem do dataset final. A descrição detalhada encontra-se no próprio notebook.
 
 
 ### 3° notebook
+
+Neste notebook são montados vários modelos de ML, realizando seus treinamentos, otimização dos hiper parâmetrosede e avaliação usando *cross validation*. Para fins de aplicação e capacidade de generalização, foi utilizado o parâmetro de maior *F1_score* como o determinante na escolha modelo. Descrições detalhadas no notebook.
+
+
+### 4° notebook
 
 A partir das previsões do melhor modelo, neste notebook é realizada a análise de onde on modelo está errando e possíveis causas de erro. Nesta parte entra o conhecimento prévio sobre o que está sendo modelado. Por exemplo: Os dados originais não possuíam o número de seguidores em redes sociais dos candidatos, então alguns candidatos com milhões de seguidores e que foram eleitos não estavam com uma probabilidade alta pelo modelo. Logo, adquiridos os dados de redes sociais e implementados no modelo, melhoraram substancialmente as previsões.
 
